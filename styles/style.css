@@ -1,0 +1,22 @@
+h1 {
+    background-color: yellow;
+}
+
+.navigation{
+    margin: auto;
+}
+
+h1, h2{
+    font: optional;
+}
+
+nav.navigation{
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+}
+
+p > *{
+    color:aquamarine;
+}
+
