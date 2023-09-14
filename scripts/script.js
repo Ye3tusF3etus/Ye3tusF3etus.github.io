@@ -8,7 +8,7 @@ function showHint(str) {
 		console.log(this.statusText);
 		document.getElementById("txtHint").innerHTML = this.responseText;
 	  }
-	xmlhttp.open("GET", "/public/hello.php?q=" + str);
+	xmlhttp.open("GET", "/scripts/hello.php?q=" + str);
 	xmlhttp.send();
 	}
   }
