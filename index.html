@@ -2,19 +2,74 @@
     <html lang="en">
         <head>
             <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width">
+            <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+            <link rel="icon" type="image/x-icon" href="/assets/YTLOGO-1d7452a2.png">
             
-          <script type="module" crossorigin src="assets/main.js"></script>
-          <link rel="stylesheet" href="assets/index-5f6fe066.css">
+          <link rel="stylesheet" href="/assets/index-29dac241.css">
         </head>
         <body>
-            <header>
-                <nav class="navigation">
-                    <a>Home</a>
-                    <a>Works</a>
-                    <a>Contact</a>
-                    <a>About Me</a>
-                </nav>
-            </header>
+            <div class="window">
+                <iframe width="100%" height="80%" src="https://www.youtube.com/embed/X5I9Z2fmgHc?playlist=X5I9Z2fmgHc&loop=1&autoplay=1&mute=1&disablekb=1&controls=0&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+            <div style="position: relative; background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)); width: 100%; height: 100%; margin: 0px; padding: 0%;">
+                <header>
+                    <nav  class="navigation">
+                        <a href="/">Home</a>
+                        <a href="/public/Works.html">Works</a>
+                        <a href="/public/#contact">Contact</a>
+                        <a href="/#aboutme" >About Me</a>
+                    </nav>
+                    <div>
+                        <img src="/assets/YTLOGO-1d7452a2.png">
+                    </div>
+                </header>
+                <div style="padding: 10%;"></div>
+                <div class="main">
+                    <h1 id="aboutme">About Me</h1>
+                    <p>
+                        Hello everyone, my name's Marco Jorge Barbosa Seabra, though I am most known as YeetusFeetus on my socials. I am a software developer, 3D modeller,
+                        editor and several other things. I am most experienced in Programming before anything else, but I am able to do other things. Check out my <a href="/public/Works.html">works</a>
+                        for reference.
+                    </p>
+                    <p>
+                        I am a self taught Programmer, I spend most of my free time programming, and editing videos for my youtube channel, as well as continueing to expand my arsenal of skills
+                        such as 3D modelling and Drawing. I finished middle school education, but due to my countries educational system, high school does not exist, so I don't have a high school
+                        degree so to speak.
+                    </p>
+                    <p>
+                        <h2>Education</h2>
+                        <ul>
+                            <li>
+                                Lol
+                            </li>
+                            <li>
+                                kekw
+                            </li>
+                        </ul>
+                    </p>
+                    <div>
+                        <h1 id="contact">Contact</h1>
+                        <dl>
+                            <dt>Send me an Email</dt>
+                            <dd>
+                                <div>
+                                    <input placeholder="Email">
+                                    <input placeholder="Subject">
+                                    <textarea placeholder="Message"></textarea>
+                                    <button>Submit</button>
+                                </div>
+                                <p>Start typing a name in the input field below:</p>
+                                <p>Suggestions: <span id="txtHint"></span></p>
+
+                                <form>
+                                    First name: <input type="text" style="color: black" onkeyup="showHint(this.value)">
+                                </form>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
         </body>
+        <script src="/public/scripts/script.js"></script>
     </html>
